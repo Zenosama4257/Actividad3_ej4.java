@@ -5,7 +5,7 @@ public class Pintura {
         cobertura=Cobert;
     }
 
-    public double cantidadPintura (double Area){
-    return  Area / cobertura;
+    public double cantidadPintura (Forma obj){
+    return obj.Area() / cobertura;
     }
 }

@@ -15,6 +15,9 @@ public class Cilindro extends Forma{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Cilindro{" +
+                "radio=" + radio +
+                ", altura=" + altura +
+                '}';
     }
 }

@@ -15,6 +15,9 @@ public class Rectangulo extends Forma {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Rectangulo{" +
+                "ancho=" + ancho +
+                ", longitud=" + longitud +
+                '}';
     }
 }

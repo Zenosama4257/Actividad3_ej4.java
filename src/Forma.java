@@ -7,8 +7,13 @@ public class Forma {
     }
 
     //Podemos observar polimorfismo en los metodos de Area porque según que figura se realizan con cálculos diferentes y en Nombre que es mostrado por el metodo to String porque cada figura tiene un  Nombre diferente.
-    public String toString (){
-        return Nombre;
+
+
+    @Override
+    public String toString() {
+        return "Forma{" +
+                "Nombre='" + Nombre + '\'' +
+                '}';
     }
 
     public double Area (){

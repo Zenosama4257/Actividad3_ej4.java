@@ -13,9 +13,10 @@ public class Esfera extends Forma{
     }
 
 
-
     @Override
     public String toString() {
-        return super.toString();
+        return "Esfera{" +
+                "radio=" + radio +
+                '}';
     }
 }
